@@ -37,7 +37,8 @@ const Overlay = () => {
     });
 
     return (
-        <Scroll html>
+
+        <Scroll  html>
             <div className="w-screen">
                 {/* SECTION 1 */}
                 <Section opacity={opacityFirstSection}>
@@ -102,6 +103,7 @@ const Overlay = () => {
                 </Section>
             </div>
         </Scroll>
+
     );
 };
 
