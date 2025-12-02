@@ -9,11 +9,7 @@ export const Experience = () => {
          <ambientLight intensity={2}/>
         {/*<OrbitControls enableZoom={false} enableRotate={false}/>*/}
             <ScrollControls   pages={3}
-                              damping={0.5}
-                              enabled={true}
-                              distance={1}
-                              infinite={false}
-                              horizontal={false}>
+                              damping={0.5}>
           <Office/>
            <Overlay/>
             </ScrollControls>
